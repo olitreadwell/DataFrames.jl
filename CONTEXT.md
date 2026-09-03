@@ -25,10 +25,7 @@
 - avoid in-flight maintainer areas: internal refactors (`kc/...`, `bk-...`) — docs prose is safe ground.
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
-- (none yet for this repo)
+- 2026-09-03 trivial docs pass — pr-opened (fork PR #1) — 6 fixes/4 files: 2 typos (accidently, analagous), 2 broken links (GLM.jl /stable/manual/ 404, Tidier.jl /dev/ 404), 2 stale CONTRIBUTING build paths (doc/_build + docs/_build -> docs/build, confirmed by docs/build in .gitignore). No upstream PR touched these.
 
 ## Mined gaps (discovered, not yet attempted)
-- 2026-09-03 `analagous` -> `analogous` in docs/src/man/querying_frameworks.md:87 (plain misspelling) — proposed
-- 2026-09-03 `accidently` -> `accidentally` in docs/src/man/basics.md:2371 (plain misspelling) — proposed
-- 2026-09-03 broken link GLM.jl `/stable/manual/` -> `/stable/` in docs/src/index.md:86 (verified 404; /stable/ is 200) — proposed
-- 2026-09-03 broken link Tidier.jl `/dev/` -> `/stable/` in docs/src/man/querying_frameworks.md:13 (verified 404; /stable/ is 200) — proposed
+- (none pending)
