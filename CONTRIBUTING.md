@@ -24,7 +24,7 @@ The steps needed to make a change to an existing docstring are listed below:
 * Find the docstring in `src/`;
 * Update the text in the docstring;
 * run `julia make.jl` from the `/docs` directory;
-* check the output in `doc/_build/html/` to make sure the changes are correct;
+* check the output in `docs/build` to make sure the changes are correct;
 * commit your changes and open a pull request.
 * a preferred structure of docstring for a function is:
   + list of accepted signatures;
@@ -61,7 +61,7 @@ baz
 ````
 
 * run `julia make.jl` from the `/docs` directory;
-* check the output in `docs/_build/html` to make sure the changes are correct;
+* check the output in `docs/build` to make sure the changes are correct;
 * commit your changes and open a pull request.
 
 ## Doctests

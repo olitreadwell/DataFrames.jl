@@ -2368,7 +2368,7 @@ julia> transform(df, :a => (x -> 10 .* x) => (s -> "new_" * s)) # with anonymous
 !!! note
 
     It is a good idea to wrap anonymous functions in parentheses
-    to avoid the `=>` operator accidently becoming part of the anonymous function.
+    to avoid the `=>` operator accidentally becoming part of the anonymous function.
     The examples above do not work correctly without the parentheses!
     ```julia-repl
     julia> transform(df, :a => x -> 10 .* x => add_prefix)  # Not what we wanted!
